@@ -1,0 +1,33 @@
+.footer {
+   height: 88px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: #242946;
+   font-weight: 400;
+}
+
+.footer-color {
+   color: #fff;
+}
+
+.logo-footer {
+   margin-right: 64px;
+}
+
+.follow-us {
+   display: flex;
+   align-items: center;
+   gap: 40px;
+}
+
+.follow-us svg {
+   transition: .1s ease;
+   fill: #fff;
+   cursor: pointer;
+}
+
+.follow-us svg:hover {
+   fill: #FB5859;
+}

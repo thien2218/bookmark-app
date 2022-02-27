@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+@import url(./header.css);
+@import url(./footer.css);
+@import url(./main.css);
+
+html,
+body {
+   padding: 0;
+   margin: 0;
+   font-family: Rubik, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+   overflow-x: hidden;
+   scroll-behavior: smooth;
+}
+
+a {
+   color: inherit;
+   text-decoration: none;
+}
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+li {
+   list-style: none;
+}
+
+button {
+   background: none;
+   border: none;
+   padding: 14px 24px;
+   color: #fff;
+   border-radius: 5px;
+   cursor: pointer;
+   min-width: 110px;
+   line-height: 100%;
+   transition: .1s ease;
+}
+
+.container {
+   width: 100vw;
+   color: #252C45;
+   font-size: 1.125rem;
+   display: flex;
+   justify-content: center;
+}
+
+.wrapper {
+   width: 100%;
+   max-width: 1440px;
+   overflow: hidden;
+}
+
+.text {
+   line-height: 155%;
+   opacity: .6;
+   margin-bottom: 36px;
+}
+
+.heading1 {
+   font-size: 3rem;
+   line-height: 108%;
+   margin-bottom: 36px;
+   letter-spacing: -0.005em;
+   text-transform: capitalize;
+   font-weight: 500;
+}
+
+.heading2 {
+   font-size: 2rem;
+   margin-bottom: 36px;
+   font-weight: 500;
+}
+
+.secondary-btn {
+   background-color: #FB5859;
+   outline: 2px solid #FB5859;
+   outline-offset: -2px;
+}
+
+.secondary-btn:hover {
+   color: #FB5859;
+   background-color: #fff;
+}
+
+.primary-btn {
+   background-color: #5266DF;
+   outline: 2px solid #5266DF;
+   outline-offset: -2px;
+}
+
+.primary-btn:hover {
+   color: #5266DF;
+   background-color: #fff;
+}
+
+.third-btn {
+   background-color: #F7F7F7;
+   outline: 2px solid #F7F7F7;
+   color: #252C45;
+   outline-offset: -2px;
+   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.125);
+}
+
+.third-btn:hover {
+   color: #60626F;
+   outline: 2px solid #60626F;
+   color: #60626F;
+   background-color: #fff;
+}
+
+.pad-left {
+   padding-left: 175px;
+}
+
+.pad-right {
+   padding-right: 175px;
+}
+
+.logo {
+   cursor: pointer;
+}
+
+.mg-bot-90 {
+   margin-bottom: 90px;
+}
+
+.mg-bot-160 {
+   margin-bottom: 160px;
+}
