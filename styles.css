@@ -39,6 +39,11 @@ button {
    transition: .1s ease;
 }
 
+input {
+   outline: none;
+   border: none;
+}
+
 .container {
    width: 100vw;
    color: #252C45;
@@ -55,7 +60,7 @@ button {
 
 .text {
    line-height: 155%;
-   opacity: .6;
+   color: rgba(37, 44, 69, 0.6);
    margin-bottom: 36px;
 }
 
@@ -72,6 +77,13 @@ button {
    font-size: 2rem;
    margin-bottom: 36px;
    font-weight: 500;
+}
+
+.heading3 {
+   letter-spacing: 0.045em;
+   font-weight: 500;
+   margin-bottom: 16px;
+   font-size: 1.25rem;
 }
 
 .secondary-btn {
@@ -127,6 +139,14 @@ button {
    margin-bottom: 90px;
 }
 
-.mg-bot-160 {
-   margin-bottom: 160px;
+.mg-bot-150 {
+   margin-bottom: 150px;
+}
+
+.mg-top-10 {
+   margin-top: 10px;
+}
+
+.capitalize {
+   text-transform: capitalize;
 }

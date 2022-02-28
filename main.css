@@ -1,3 +1,4 @@
+/* Section 1: Introduction */
 .illus-and-text {
    width: 100%;
    display: flex;
@@ -70,7 +71,7 @@
    right: 0;
 }
 
-/* Home page second section */
+/* Section 2: Features */
 .justify-center {
    display: flex;
    flex-direction: column;
@@ -99,17 +100,16 @@
    margin-top: 12px;
    padding: 32px 42px;
    border-bottom: 1px solid #E0E0EA;
-   text-transform: capitalize;
    cursor: pointer;
-   opacity: .75;
+   color: rgba(37, 44, 69, 0.75);
 }
 
 .feature:hover {
-   opacity: .9;
+   color: rgba(251, 88, 89, 0.75);
 }
 
 .active {
-   opacity: 1;
+   color: rgba(37, 44, 69);
    pointer-events: none;
 }
 
@@ -135,3 +135,134 @@
    grid-template-columns: 1fr 1fr 1fr;
 }
 
+/* Section 3: Installation */
+.card-container {
+   height: 444px;
+   width: 75%;
+   max-width: 910px;
+   margin-top: 20px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card-container .card-wrapper:nth-child(2) {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.card-container .card-wrapper:nth-child(3) {
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+}
+
+.card {
+   width: 100%;
+   height: 100%;
+   max-height: 364px;
+   max-width: 280px;
+   border-radius: 15px;
+   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.06125);
+   padding: 42px 0 24px 0;
+   justify-content: space-between;
+}
+
+.browser {
+   margin-bottom: 34px;
+}
+
+/* Section 4: FAQ */
+.faq {
+   width: 540px;
+   display: grid;
+   border-bottom: 1px solid #DDDDDD;
+   grid-template-columns: 1fr;
+}
+
+.q-and-a {
+   height: 64px;
+   border-top: 1px solid #DDDDDD;
+   overflow: hidden;
+   transition: height .2s ease;
+}
+
+.q-and-a .text {
+   line-height: 200%;
+}
+
+.question {
+   position: relative;
+   height: 64px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-right: 24px;
+   cursor: pointer;
+   margin-bottom: 18px;
+}
+
+.question:hover > span {
+   color: #FB5859;
+}
+
+.question svg {
+   transition: .2s ease;
+}
+
+/* .answer {
+   position: absolute;
+   top: 56px;
+} */
+
+.rotate {
+   transform: rotate(180deg);
+}
+
+/* Section 5: Contact us */
+.contact-us {
+   width: 100%;
+   height: 360px;
+   background-color: #5266DF;
+}
+
+.contact-info {
+   width: 100%;
+   height: 100%;
+   max-width: 442px;
+   color: #fff;
+   padding: 74px 0;
+   justify-content: space-between;
+}
+
+.contact-info .heading2 {
+   margin: 0;
+}
+
+.following {
+   letter-spacing: 0.4em;
+   font-size: 0.8125rem;
+   text-transform: uppercase;
+}
+
+.enter-info {
+   width: 100%;
+   height: 48px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.enter-info button {
+   height: 100%;
+   font-size: .875rem;
+   width: 125px;
+}
+
+.email-contact {
+   font-size: .875rem;
+   letter-spacing: 0.015rem;
+   padding: 0 20px;
+   border-radius: 5px;
+   height: 100%;
+   width: 300px;
+}
